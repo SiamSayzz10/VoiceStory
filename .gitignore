@@ -1,0 +1,14 @@
+# Ignore the database
+VoiceStory-Backend/database.db
+VoiceStory-Backend/database.db-shm
+VoiceStory-Backend/database.db-wal
+
+# Ignore heavy AI folders and audio files
+VoiceStory-Backend/uploads/
+VoiceStory-Backend/temp_tts/
+VoiceStory-Backend/models/
+VoiceStory-Backend/__pycache__/
+
+# Ignore temporary Flutter build files (This fixes the crash!)
+voice_story/build/
+voice_story/.dart_tool/
